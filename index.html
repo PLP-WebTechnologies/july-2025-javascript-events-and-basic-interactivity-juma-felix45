@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kenta Ni Home Learning Institution</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav>
+    <div class="logo">Kenta Ni Home Learning</div>
+    <button class="menu-toggle" id="menuToggle">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </button>
+    <ul id="navLinks">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#form">Register</a></li>
+      <li><a href="#interactive">Interactive</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Overlay -->
+  <div id="overlay"></div>
+
+  <!-- Hero Section -->
+  <header id="home">
+    <div class="hero-content">
+      <h1>Welcome to Kenta Ni Home Learning Institution</h1>
+      <p>Empowering students through knowledge and innovation</p>
+      <button id="themeToggle">Toggle Dark/Light Mode</button>
+    </div>
+  </header>
+
+  <!-- Registration Form -->
+  <section id="form" class="form-section">
+    <h2>Student Registration</h2>
+    <form id="studentForm">
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" name="name"/>
+
+      <label for="idNumber">ID Number:</label>
+      <input type="text" id="idNumber" name="idNumber"/>
+
+      <label for="email">Email:</label>
+      <input type="text" id="email" name="email"/>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password"/>
+
+      <label for="confirmPassword">Confirm Password:</label>
+      <input type="password" id="confirmPassword" name="confirmPassword"/>
+
+      <label for="phone">Phone Number:</label>
+      <input type="text" id="phone" name="phone"/>
+
+      <label for="age">Age:</label>
+      <input type="number" id="age" name="age"/>
+
+      <label for="country">Country:</label>
+      <input type="text" id="country" name="country"/>
+
+      <button type="submit">Register</button>
+      <p id="formMessage"></p>
+    </form>
+  </section>
+
+  <!-- Interactive Features -->
+  <section id="interactive" class="interactive">
+    <h2>Interactive Features</h2>
+
+    <!-- Counter Game -->
+    <div class="counter card">
+      <h3>Counter Game</h3>
+      <p>Counter: <span id="count">0</span></p>
+      <button id="increaseBtn">Increase</button>
+      <button id="decreaseBtn">Decrease</button>
+      <button id="resetBtn">Reset</button>
+    </div>
+
+    <!-- FAQ Section -->
+    <div class="faq card">
+      <h3>Frequently Asked Questions</h3>
+      <div class="faq-item">
+        <h4 class="faq-question">What courses do you offer?</h4>
+        <p class="faq-answer">We offer Computer Science, Business, Arts, and Engineering programs.</p>
+        <p class="faq-answer">We offer Computer Science, Business, Arts, and Engineering programs.</p>
+      </div>
+      <div class="faq-item">
+        <h4 class="faq-question">How do I apply?</h4>
+        <p class="faq-answer">You can apply directly through our online registration form above.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section id="gallery" class="gallery">
+    <h2>Our Campus</h2>
+    <div class="gallery-grid">
+      <img src="campus 1.jpg" alt="Main Campus Complex">
+      <img src="campus 2.jpg" alt="City Campus">
+      <img src="campus 3.jpg" alt="Southern Campus">
+      <img src="campus 4.jpg" alt="Coastal Campus">
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p>Email: info@kentanihome.edu</p>
+    <p>Phone: +254 712345678</p>
+    <p>Address: 123 Knowledge Avenue, Nairobi, Kenya</p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Kenta Ni Home Learning Institution | Designed with ❤️</p>
+  </footer>
+
+  <!-- Script -->
+  <script src="script.js"></script>
+</body>
+</html>
